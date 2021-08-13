@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 10rem;
+
+  > img {
+    width: 140px;
+    height: 68px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  ul li {
+    padding: 1.7rem 20px;
+  }
+
+  ul li img {
+    width: 30px;
+    height: 30px;
+  }
+}
