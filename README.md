@@ -6,7 +6,7 @@
 
 <img src="./img.PNG" alt="exemplo imagem">
 
-> Essa aplicação é a resolução de um desafio proposto no servidor da Codelândia 
+> Essa aplicação é a resolução de um desafio proposto no servidor da Codelândia.
 >
 ## Linguagens utilizadas
 
