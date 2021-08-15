@@ -6,7 +6,7 @@
 
 <img src="./public/images/Ignews.PNG" alt="exemplo imagem">
 
-> Essa aplicação foi desenvolvida com o framework NextJs, junto com a biblioteca ReactJs. No banco de dados eu utilizei o FaunaDB e como plataforma de pagamento eu usei o Stripe na hora de carregar os posts eu optei por usar o CMS Prismic que puxa todas as postagens em tempo real para a aplicação.
+> Essa aplicação é a resolução de um desafio proposto no servidor da Codelândia 
 >
 ## Linguagens utilizadas
 
@@ -14,18 +14,6 @@
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript)
 - [SASS](https://sass-lang.com/)
 
-## 🚀 Instalando IgNews
-
-Para instalar o IgNews, siga estas etapas:
-
-Linux, macOS e Windows:
-```
-git clone https://github.com/Nikolas-as/IgNews.git
-
-cd IgNews
-
-npm start
-```
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
