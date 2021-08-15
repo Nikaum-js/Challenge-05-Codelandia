@@ -1,0 +1,82 @@
+section {
+  width: 450px;
+  height: 395px;
+  margin: 4rem 10rem;
+  
+  h2 {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+  }
+
+  h1 {
+    padding: 1.1rem 0;
+    font-weight: 900;
+    font-size: 4.4rem;
+    line-height: 4.6rem;
+  }
+
+  p {
+    font-size: 1.01rem;
+    line-height: 1.75rem;
+  }
+
+  #watch {
+    margin: 2.813rem 0.5rem;
+    width: 205px;
+    height: 45px;
+    transform: skew(-18deg);
+
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    border: 0;
+    background: rgba(101, 142, 118, 1);
+
+    img {
+      position: relative;
+      top: 4px;
+      right: 10px;
+    }
+  }
+
+  #trailer {
+    margin: 2.813rem 0.5rem;
+    width: 205px;
+    height: 45px;
+    transform: skew(-18deg);
+
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    border: solid 3px rgba(101, 142, 118, 1);
+    background: transparent;
+  }
+}
+
+.ilustracao {
+  width: 550px; //500
+  height: 450px; //400
+  position: relative;
+  bottom: 460px;
+  left: 810px;
+
+  img {
+    position: relative;
+    bottom: 460px;
+    left: 810px;
+    width: 550px; //500
+    height: 450px; //400
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -10,14 +10,26 @@ nav {
 
   ul {
     display: flex;
+    cursor: pointer;
   }
 
   ul li {
-    padding: 1.7rem 20px;
+    padding: 2.7rem 1.3rem;
+    transition: 0.2s;
   }
 
   ul li img {
     width: 30px;
     height: 30px;
+  }
+
+  li:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 720px) {
+  nav {
+    margin: 2rem 1rem;
   }
 }

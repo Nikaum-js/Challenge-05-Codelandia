@@ -23,18 +23,21 @@
 }
 }
 
-body { 
+html { 
+  overflow-x: hidden;
+  overflow-y: hidden;
   color: var(--white);
 
-  width: 100%;
+  position: relative;
+ 
   height: 100vh;
 
-  background: linear-gradient(110.02deg, #628E75 0.66%, #1A4855 83.32%);
-  
+  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+  box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 }
 
 body, input, textarea, select, button {
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Poppins", sans-serif;
 }
 
 ul li {
