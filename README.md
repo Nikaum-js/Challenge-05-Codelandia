@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Nikolas-as/Challenge-05-Codelandia?style=for-the-badge)
 
 
-<img src="./public/images/Ignews.PNG" alt="exemplo imagem">
+<img src="./img.PNG" alt="exemplo imagem">
 
 > Essa aplicação é a resolução de um desafio proposto no servidor da Codelândia 
 >
