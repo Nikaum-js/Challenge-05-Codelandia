@@ -33,6 +33,7 @@ section {
     line-height: 28px;
     border: 0;
     background: rgba(101, 142, 118, 1);
+    transition: filter 0.2s;
 
     img {
       position: relative;
@@ -53,6 +54,15 @@ section {
     line-height: 28px;
     border: solid 3px rgba(101, 142, 118, 1);
     background: transparent;
+    transition: filter 0.2s;
+  }
+
+  #trailer:hover {
+    filter: brightness(0.9);  
+  }
+
+  #watch:hover {
+    filter: brightness(0.9);  
   }
 }
 
@@ -62,13 +72,57 @@ section {
   position: relative;
   bottom: 460px;
   left: 810px;
+}
 
-  img {
+@media (max-width: 1024px) {
+  .ilustracao {
+    width: 350px; //500
+    height: 250px; //400
     position: relative;
     bottom: 460px;
-    left: 810px;
-    width: 550px; //500
-    height: 450px; //400
+    left: 610px;
+  }
+}
+
+@media (max-width: 970px) {
+  .ilustracao {
+    display: flex;
+    bottom: 830px;
+    left: 60px;
+    width: 350px; //500
+    height: 250px; //400
+  }
+
+  section {
+    margin: 15rem 5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .ilustracao {
+    display: flex;
+    bottom: 710px;
+    left: 60px;
+    width: 250px; //500
+    height: 150px; //400
+  }
+
+  section {
+    margin: 15rem 5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .ilustracao {
+    display: flex;
+    bottom: 710px;
+    left: 60px;
+    width: 250px; //500
+    height: 150px; //400
+  }
+
+  section {
+    margin: 15rem 5rem;
   }
 }
 
